@@ -16,6 +16,7 @@ file_names = []
 def remove_punctuations(line):
     return re.sub(r'(\.|\,)', '', line)
 def open_pdf_file(file_name):
+    
     output = StringIO()
     manager = PDFResourceManager()
     converter = TextConverter(manager, output, laparams=LAParams())
