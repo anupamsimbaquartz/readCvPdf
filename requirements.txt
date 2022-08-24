@@ -5,3 +5,4 @@ jinja2==2.11.2
 pdfminer
 docx2txt
 python-multipart
+fastapi
